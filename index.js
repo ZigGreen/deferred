@@ -7,6 +7,10 @@ function Deferred() {
   } else if (typeof(PromiseUtils) != 'undefined'  && PromiseUtils.defer) {
     return PromiseUtils.defer();
   } else {
+    if (!(this instanceof Deferred)) {
+      return new Deferred();
+    }
+
     this.resolve = null;
     this.reject = null;
 
