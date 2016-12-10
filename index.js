@@ -22,3 +22,5 @@ function Deferred() {
     Object.freeze(this);
   }
 }
+
+module.exports = Deferred;
