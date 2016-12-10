@@ -1,0 +1,25 @@
+{
+  "name": "mozilla-deferred",
+  "version": "1.0.0",
+  "description": "simple promise resolving api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZigGreen/deferred.git"
+  },
+  "keywords": [
+    "Promise",
+    "aync",
+    "mozilla",
+    "Deffered"
+  ],
+  "author": "Kirill Banaru <krisstal.mail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZigGreen/deferred/issues"
+  },
+  "homepage": "https://github.com/ZigGreen/deferred#readme"
+}
